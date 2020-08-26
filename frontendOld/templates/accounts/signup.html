@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+	<meta charset="UTF-8">
+	<title>Marina | Signup</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="shortcut icon" href="/favicon.ico"/>
+    <link rel="icon" href="/Boat.png" type="image/png" />
+
+	<style>
+		body{
+			  transform-origin: center;
+
+    zoom:110%; /* For Chrome, IE, default 100%*/
+  background: linear-gradient(rgba(0,123,255,.15) 0%, rgba(0,123,255,.5) 66%, rgba(0,123,255,.9) 100%);
+  background-attachment: fixed;
+		},
+		h1, h2, h3, h4, h5, p, span, strike{
+		  font-family: 'Montserrat', sans-serif;
+
+		},
+		html {
+			margin: 0;
+			padding: 0;
+			height: 0%;
+			background: #7abecc !important;
+		}
+		.user_card {
+			width: 40%;
+
+			margin-top: auto;
+			margin-bottom: auto;
+			background: #fff;
+			object-position: center;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+
+			position:absolute;
+			top:40px;
+		}
+
+		.form_container {
+			margin-top: 20px;
+			margin-bottom: -20px;
+		}
+
+		#form-title{
+			color: #fff;
+			
+		}
+
+		.login_btn {
+/*			width: 100%;
+
+*/			
+			padding-left: 5px;
+			padding-right: 5px;
+			background: #fff !important;
+			color: rgba(0,123,255,.9);
+			margin-bottom: 40px;
+		}
+		.login_btn:hover {
+			text-decoration: none;
+			box-shadow: none !important;
+			outline-style: solid;
+  			outline-color: rgba(0,123,255,.9);
+		}
+		.login_container {
+/*			padding: 0 2rem;
+*/		}
+
+		.title-container{
+			 border-bottom: 2px solid rgba(0,123,255,.9);
+			 padding-left: 20px;
+			 padding-right: 20px;
+			 padding-top: 20px;
+			 padding-bottom: 10px;
+		}
+		.input-group-text {
+			background: #f7ba5b !important;
+			color: white !important;
+			border: 0 !important;
+		}
+		.input_user,
+		.input_pass:focus {
+			box-shadow: none !important;
+			outline: 0px !important;
+		}
+
+		.mt-4{
+			margin-bottom: -20px;
+
+		}
+
+		#messages{
+			background-color: grey;
+			color: #fff;
+			padding: 5px;
+			font-size: smaller;
+ 		}
+
+	</style>
+
+</head>
+<body>
+	<div class="container h-100">
+		<div class="d-flex justify-content-center h-100">
+			<div class="user_card">
+				<div class="title-container">
+					<div class="d-flex justify-content-center">
+					<h3 id="form-title" style="color:rgba(0,123,255,.9);">	Make a Marina Account!
+					</h3>
+				</div>
+			</div>
+				<div class="d-flex justify-content-center form_container">
+
+					<form method="POST" action="">
+						{% csrf_token %}
+						<div class="input-group mb-3">
+							<input type="text" name="username" placeholder="Username..." class="form-control">
+						</div>
+
+						<div class="input-group mb-2">
+								<input type="email" name="email" placeholder="Email..." class="form-control" >
+						</div>
+						<div class="input-group mb-2">
+								<input type="password" name="password1" placeholder="Password..." class="form-control" >
+						</div>
+
+						<div class="input-group mb-2">
+								<input type="password" name="password2" placeholder="Re-enter Password..." class="form-control" >
+						</div>
+
+				   		<div class="d-flex justify-content-center mt-3 login_container">
+				 			<input class="btn login_btn" type="submit" value="Sign up">
+				   		</div>
+
+
+					</form>
+				</div>
+
+				{% for field in form %}
+					{% for error in field.errors %}
+
+						{% if field.name == 'password2' %}
+							<p id="messages"> The passwords you have entered do not match </p>
+
+						{% elif field.name == 'password1' %}
+							<p id="messages">password: {{error}}
+
+						{% else %}
+
+							<p id="messages">{{field.name}}: {{error}}</p>
+						
+						{% endif %}
+					{% endfor %}
+				{% endfor %}
+		
+				<div class="mt-4">
+
+					<div class="d-flex justify-content-center links">
+						<div style = "color:#6C757D">
+							Already have an account? 
+						</div>
+
+						<a href="{% url 'login' %}" class="ml-2 login_btn" style="color:rgba(0,123,255,.9)">Login</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+
+	</script>
+</body>
+</html>
