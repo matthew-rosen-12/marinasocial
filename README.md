@@ -1,17 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-
-<img width="1162" alt="Screen Shot 2020-12-31 at 9 40 33 AM" src="https://user-images.githubusercontent.com/51928531/103414719-1877c700-4b4d-11eb-8262-829ddb701489.png">
-
-<img width="1160" alt="Screen Shot 2020-12-31 at 9 41 16 AM" src="https://user-images.githubusercontent.com/51928531/103414673-eb2b1900-4b4c-11eb-94f4-8ea59b871a89.png">
-
-<img width="1163" alt="Screen Shot 2020-12-31 at 9 40 58 AM" src="https://user-images.githubusercontent.com/51928531/103414718-17df3080-4b4d-11eb-86cf-189b61d3f168.png">
-
-<img width="1161" alt="Screen Shot 2020-12-31 at 9 41 55 AM" src="https://user-images.githubusercontent.com/51928531/103414717-17df3080-4b4d-11eb-9a33-1810971fe556.png">
-
-<img width="1161" alt="Screen Shot 2020-12-31 at 9 43 06 AM" src="https://user-images.githubusercontent.com/51928531/103414715-17469a00-4b4d-11eb-8f41-c423334aa6c9.png">
-
-<img width="1163" alt="Screen Shot 2020-12-31 at 9 44 58 AM" src="https://user-images.githubusercontent.com/51928531/103414716-17df3080-4b4d-11eb-834e-b83e561df935.png">
+![Screenshot_2020-12-31 Marina Home](https://user-images.githubusercontent.com/51928531/103415765-a190fd00-4b51-11eb-8e0b-813f2b99161a.png)
+![Screenshot_2020-12-31 Marina Signup](https://user-images.githubusercontent.com/51928531/103415768-a5248400-4b51-11eb-8c7a-678976f35387.png)
+![Screenshot_2020-12-31 Marina Login](https://user-images.githubusercontent.com/51928531/103415771-a5bd1a80-4b51-11eb-92c1-1da2118486ec.png)
+![Screenshot_2020-12-31 Marina Home(1)](https://user-images.githubusercontent.com/51928531/103415778-a950a180-4b51-11eb-97ba-1298bc3ce51e.png)
+![Screenshot_2020-12-31 Marina Vote](https://user-images.githubusercontent.com/51928531/103415782-ab1a6500-4b51-11eb-8b12-58d8143cbce9.png)
+![Screenshot_2020-12-31 Marina Entries](https://user-images.githubusercontent.com/51928531/103415786-ac4b9200-4b51-11eb-8f3e-4adfcc4c4aed.png)
 
 ## Available Scripts
 
