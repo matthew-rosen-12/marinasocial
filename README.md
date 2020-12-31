@@ -7,11 +7,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 <img width="1163" alt="Screen Shot 2020-12-31 at 9 40 58 AM" src="https://user-images.githubusercontent.com/51928531/103414718-17df3080-4b4d-11eb-86cf-189b61d3f168.png">
 
+<img width="1161" alt="Screen Shot 2020-12-31 at 9 41 55 AM" src="https://user-images.githubusercontent.com/51928531/103414717-17df3080-4b4d-11eb-9a33-1810971fe556.png">
+
 <img width="1161" alt="Screen Shot 2020-12-31 at 9 43 06 AM" src="https://user-images.githubusercontent.com/51928531/103414715-17469a00-4b4d-11eb-8f41-c423334aa6c9.png">
 
 <img width="1163" alt="Screen Shot 2020-12-31 at 9 44 58 AM" src="https://user-images.githubusercontent.com/51928531/103414716-17df3080-4b4d-11eb-834e-b83e561df935.png">
-
-<img width="1161" alt="Screen Shot 2020-12-31 at 9 41 55 AM" src="https://user-images.githubusercontent.com/51928531/103414717-17df3080-4b4d-11eb-9a33-1810971fe556.png">
 
 ## Available Scripts
 
