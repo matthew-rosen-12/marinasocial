@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# marina.social
+
+Users are sorted into teams and compete to generate the best response to a given prompt.
+
 ![Screenshot_2020-12-31 Marina Home](https://user-images.githubusercontent.com/51928531/103415765-a190fd00-4b51-11eb-8e0b-813f2b99161a.png)
 ![Screenshot_2020-12-31 Marina Signup](https://user-images.githubusercontent.com/51928531/103415768-a5248400-4b51-11eb-8c7a-678976f35387.png)
 ![Screenshot_2020-12-31 Marina Login](https://user-images.githubusercontent.com/51928531/103415771-a5bd1a80-4b51-11eb-92c1-1da2118486ec.png)
